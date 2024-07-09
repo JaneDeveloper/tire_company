@@ -1,0 +1,120 @@
+html {
+    background-color:grey;    
+}
+body {
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2em;
+    background-color: white;
+    border: 1px solid #001963;
+}
+header {
+    margin: 0;
+    border-bottom: 2px solid black;
+    padding: .5em 2em;
+   
+}
+
+header h1 {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+header p {
+    margin: 0;
+    padding: .25em 0 0 0;
+}
+
+main {
+    margin: 0;
+    margin-bottom:30px;
+    padding: .5em 2em .25em;
+}
+footer {
+    clear: both;
+    border-top: 2px solid black;   
+}
+footer p {
+    text-align: right;
+    font-size: 80%;
+}
+
+h1 {
+    font-size: 150%;
+    margin: 0;
+    padding: .5em 0 .25em;
+    color:black;
+}
+
+
+
+table {
+    border: 1px solid #001963;
+    border-collapse: collapse;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+main label {
+    display:inline-block;
+}
+label {
+    margin-top:7px;
+    font-weight:bold;
+}
+.last_paragraph a {
+    color: rgb(41, 64, 124);
+    font-weight: bold;
+}
+.last_paragraph a:hover{
+    color: rgb(208, 133, 4);
+}
+
+#login_form label, #search_form label {
+    font-weight: normal;
+}
+.last_paragraph {
+    color: rgb(41, 64, 124);
+    font-weight: bold;
+
+}
+.last_paragraph:hover {
+    color: rgb(208, 133, 4);
+}
+
+.add_button {
+    color: rgb(41, 64, 124); 
+    font-weight: bold;
+    font-size: 17px;
+}
+.save_button {
+    color: rgb(41, 64, 124); 
+    font-weight: bold;
+    margin-top:20px;
+    font-size: 17px;
+}
+.error {
+    color:red;
+}
+
+
+td, th {
+    border: 1px dashed #001963;
+    padding: .2em .5em .2em .5em;
+    text-align: left;
+}
+
+br {
+    clear: left;
+}
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+}
+
+.right {
+    text-align: right;
+}
